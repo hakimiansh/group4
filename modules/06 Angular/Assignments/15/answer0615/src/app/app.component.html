@@ -1,0 +1,18 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+
+
+    <header></header>
+
+    <div id="gallery" *ngFor="let pic of imgSrc">
+      <img [src]="pic"/>
+      <button class="like_btn">Like</button>
+      <button class="like_counter">0</button>
+    </div>
+
+
+
+

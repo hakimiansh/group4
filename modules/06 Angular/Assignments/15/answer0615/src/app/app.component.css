@@ -1,0 +1,39 @@
+#gallery {
+  width: 50%;
+  flex-wrap: wrap;
+  display: flex;
+  position: relative;
+  left: 30%;
+}
+img {
+  height: 80%;
+  width: 100%;
+  display: block;
+  border-radius: 10px;
+}
+
+img:hover {
+  box-shadow:  2px 2px 5px 4px rgba(0, 0, 0, .5), -2px -2px 5px 4px rgba(0, 0, 0, .5);
+  cursor: pointer;
+}
+
+.like_btn {
+  height: 100%;
+  width:70%;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background: lightslategray;
+}
+
+.like_btn:hover{
+  box-shadow:  2px 2px 5px 4px rgba(0, 0, 0, .5), -2px -2px 5px 4px rgba(0, 0, 0, .5);
+  cursor: pointer;
+}
+.like_counter{
+  position:relative;
+  top:25%;
+  left:40%;
+  border-radius: 5px;
+
+}

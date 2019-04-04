@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="content" >
+        <div class="middle">
+            <h1>Search Movie</h1>
+            </div>
+        <div id="content_container">
+            <div id="container_search">
+                <label for="movie_title">movie title:</label>
+                <input type="text" name="movie_title" id="movie_title">
+                <span id="errorname"></span>
+                <input type="submit" value="Search" onclick="searchMovie();">
+            </div>
+            <div id="container_results">
+                <div id="result_short">result-short</div>
+                <div id="result_more_details">result-more details</div>
+            </div>
+        </div>
+    </div>
+    <script src="Movie.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
