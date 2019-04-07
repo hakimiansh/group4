@@ -1,4 +1,4 @@
-export interface Image{
+export interface Image {
   src: string;
   likeCount: number;
 }

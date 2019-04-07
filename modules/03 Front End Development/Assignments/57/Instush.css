@@ -85,7 +85,7 @@ img:hover {
 
 
 .like_counter{
-    position: relative;
+    position: flex;
     top:25%;
     left:40%;
 }
