@@ -1,0 +1,12 @@
+* {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+
+}
+
+#timer-container{
+  width: 480px;
+  height: 30%;
+}

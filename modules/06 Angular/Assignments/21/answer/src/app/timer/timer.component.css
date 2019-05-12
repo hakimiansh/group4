@@ -1,0 +1,14 @@
+#start{
+  background-color: rgb(217, 234, 211);
+  border-color: rgb(106, 168, 79);
+}
+
+#stop{
+  background-color: rgb(252, 229, 205);
+  border-color: rgb(204, 0, 0);
+}
+
+#reset{
+  background-color: rgb(207, 226, 243);
+  border-color: rgb(61, 133, 198);
+}

@@ -1,0 +1,13 @@
+<form id="form">
+<input type="radio" name="timer" id="timer" value="Timer" checked>Timer
+<input type="radio" name="countdown" id="countdown" value="Countdown">Countdown
+<input type="text" name="startsForValue" id="startsForValue" placeholder="Start from">
+</form>
+
+<div *ngIf="isTimer" id="timer-container">
+<app-timer></app-timer>
+</div>
+
+<!-- <div *ngIf="!isTimer">
+  <app-countdown [startsForValue]="startsForValue"></app-countdown>
+  </div> -->
