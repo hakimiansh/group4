@@ -1,0 +1,22 @@
+<div id="container">
+  <div id="big-image-container">
+    <div class="big-image-arrow-left" (click)="showImage('l')">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9XNzScYIlhsVuWFqh7pD3pqt73_krZASZeJJI5azAeRmxaUnUZg" alt="shift left">
+    </div>
+    <div id="big-image">
+      <app-image [imageSrc]="images[imgSrcIndex]"></app-image>
+     
+    </div>
+    <div class="big-image-arrow-right" class="big-image-arrow-right" (click)="showImage('r')">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9XNzScYIlhsVuWFqh7pD3pqt73_krZASZeJJI5azAeRmxaUnUZg" alt="shift right">
+    </div>
+  </div>
+  <div class="images">
+    <div *ngFor="let im of images; let i =index" class="image">
+      <app-image [imageSrc]="im" [imgSrcIndex]="i" (showBigImgEvent)="onshowBigImg($event)"></app-image>
+      
+    </div>
+  </div>
+</div>
+
+<router-outlet></router-outlet>
