@@ -1,0 +1,12 @@
+import  { Video } from './video.model';
+export const VIDEOS:Video[]=[
+     { title: "title1", description: "description1", url: "http://techslides.com/demos/sample-videos/small.mp4", artist: "artist1", imgSrc: "http://downloadicons.net/sites/default/files/windows-media-player-icon-66464.png" },
+    { title: "title2", description: "description2", url: "https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4", artist: "artist2", imgSrc: "http://downloadicons.net/sites/default/files/windows-media-player-icon-66464.png" },
+    { title: "title3", description: "description3", url: "https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4", artist: "artist3", imgSrc: "http://downloadicons.net/sites/default/files/windows-media-player-icon-66464.png" },
+    { title: "title4", description: "description4", url: "https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4", artist: "artist4", imgSrc: "http://downloadicons.net/sites/default/files/windows-media-player-icon-66464.png" },
+    { title: "title5", description: "description5", url: "https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4", artist: "artist5", imgSrc: "http://downloadicons.net/sites/default/files/windows-media-player-icon-66464.png" },
+    { title: "title6", description: "description6", url: "https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4", artist: "artist6", imgSrc: "http://downloadicons.net/sites/default/files/windows-media-player-icon-66464.png" },
+    { title: "title7", description: "description7", url: "https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4", artist: "artist7", imgSrc: "http://downloadicons.net/sites/default/files/windows-media-player-icon-66464.png" },
+    { title: "title8", description: "description8", url: "https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4", artist: "artist8", imgSrc: "http://downloadicons.net/sites/default/files/windows-media-player-icon-66464.png" },
+    { title: "title9", description: "description9", url: "https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4", artist: "artist9", imgSrc: "http://downloadicons.net/sites/default/files/windows-media-player-icon-66464.png" },
+    { title: "title10", description: "description10", url: "https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4", artist: "artist10", imgSrc: "http://downloadicons.net/sites/default/files/windows-media-player-icon-66464.png" }];

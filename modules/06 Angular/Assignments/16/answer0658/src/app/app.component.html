@@ -1,0 +1,22 @@
+
+
+<div id="container">
+
+  <div id="video-container">
+    <div id="video-player-container">
+      <app-video-player [videoUrl]="player.url"></app-video-player>
+    </div>
+ <div id="video-details-container">
+    
+  <app-video-details [videoDetailsI]="player"></app-video-details>
+    </div>
+  </div>
+
+  <div id="videos-container">
+      <div id="more-videos-container"><h3>More videos</h3></div>  
+    <div *ngFor="let video of videos">
+      <app-video [videoI]="video" (videoChangeEvent)="onVideoChangeEvent($event)"></app-video>
+    </div>
+  </div>
+
+</div>
