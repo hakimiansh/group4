@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -13,46 +14,39 @@
     <form>
         <fieldset>
             <legend>Continent</legend>
-
-            <input type="radio" id="asia" name="cont" value='asia'>
-            <label for="asia">Asia</label><br />
-
-            <input type="radio" id="africa" name="cont" value='africa'>
-            <label for="africa">Africa</label><br />
-
-            <input type="radio" id="europe" name="cont" value='europe'>
-            <label for="europe">Europe</label>
+            <label for="continent">Continent:</label>
+            <input list="continents" name="continent">
+            <datalist name="continents" id="continents">
+                <option value="America">America</option>
+                <option value="Asia">Asia</option>
+                <option value="Europe">Europe</option>
+            </datalist>
         </fieldset>
 
         <fieldset>
             <legend>Country</legend>
-
-            <input type="radio" id="il" name="country" value='israel'>
-            <label for="il">Israel</label><br />
-
-            <input type="radio" id="za" name="country" value='south africa'>
-            <label for="za">South Africa</label><br />
-
-            <input type="radio" id="uk" name="country" value='united kingdom'>
-            <label for="uk">United Kingdom</label>
+<label for="country">Country:</label>
+            <select name="country" id="country">
+                <option value="israel">Israel</option>
+                <option value="india">India</option>
+                <option value="france">France</option>
+            </select>
         </fieldset>
 
         <fieldset>
             <legend>City</legend>
-
-            <input type="radio" id="jerusalem" name="city" value='jeruslalem'>
-            <label for="jerusalem">Jerusalem</label><br />
-
-            <input type="radio" id="cape" name="city" value='cape town'>
-            <label for="cape">Cape Town</label><br />
-
-            <input type="radio" id="london" name="city" value='london'>
-            <label for="London">London</label>
+<label for="city">Country:</label>
+            <select name="city" id="city">
+                <option value="Tel Aviv">Tel Aviv</option>
+                <option value="Hong Kong">Hong Kong</option>
+                <option value="paris">Paris</option>
+            </select>
         </fieldset>
 
         <br />
         <button type="submit">Submit</button>
     </form>
+
 </body>
 
 </html>
